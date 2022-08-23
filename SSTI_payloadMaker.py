@@ -5,7 +5,6 @@ from colorama import Fore, Style
 def textToAscii(argv):
 
 	string = argv.pop(0)
-	print(string)
 	ascii_values = []
 	print (Fore.YELLOW + '[*] Translating argument string to ascii code . . .')
 	for character in string:	
@@ -25,7 +24,6 @@ def payload(ascii_code):
 def main(argv):
 	
 	argv.pop(0)
-	print(argv)
 	ascii_string = textToAscii(argv)
 	print(Fore.YELLOW + '[*] Creating payload . . .' + Fore.WHITE)
 	payload(ascii_string)
