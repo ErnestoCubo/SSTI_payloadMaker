@@ -3,4 +3,4 @@ This a simple python tool that allows a user to create a obfuscated payload for 
 
 # Usage:
 
-``` python3 SSTI_payloadMaker <command>
+``` python3 SSTI_payloadMaker <command> ```
